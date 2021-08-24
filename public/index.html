@@ -9,30 +9,11 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
   </head>
   <body class="font-mono font-medium bg-blue-900">
-    <header class="container py-4 mt-4">
-      <nav class="flex items-center">
-        <h1 class="text-white font-black">Testing</h1>
-        <ul
-          class="
-            flex flex-1
-            justify-end
-            items-center
-            content-center
-            gap-12
-            text-white
-          "
-        >
-          <li>About</li>
-          <li>Contact</li>
-          <li>Skills</li>
-        </ul>
-      </nav>
-    </header>
     
-   
-      <div class="flex flex-row h-screen-almost container">
-        <div class="flex flex-col flex-initial xl:flex-1 mr-4">
-          <div class="flex-initial mx-auto xl:ml-2 mb-4">
+    
+      <div class="flex flex-row  container relative">
+        <div class="flex flex-col flex-initial xl:flex-1 mr-4 h-screen sticky top-0 left-0">
+          <div class="flex-initial mx-auto xl:ml-2 my-4 ">
             <a href=""><i class="fab fa-twitter fa-2x"></i></a>
           </div>
           
@@ -75,15 +56,19 @@
             </div>
            
           </div>
-          <button type="button" class="bg-blue-300 p-6 xl:py-3 xl:w-4/5 my-4 xl:my-0 rounded-full mt-7">
+          <button type="button" class="bg-blue-300  p-3 xl:p-6 xl:py-3 xl:w-4/5 my-4 xl:my-0 rounded-full mt-7">
             <a href="">
               <h1 class="font-medium hidden xl:block">Tweet</h1>
+              <div class="block xl:hidden">
+                <i class="fas fa-feather-alt fa-2x"></i>
+              </div>
+              
             </a>
           </button>
           <div class="flex-1 flex flex-col xl:ml-2 justify-end">
             <div class="grid grid-cols-1 xl:grid-cols-profileAd  grid-rows-2">
               <div class="row-start-1 row-end-3">
-                <img src="./img/profile.png" class="rounded-full w-12"  alt="">
+                <img src="./img/profile.png" class="rounded-full w-12 mx-auto"  alt="">
               </div>
               <div class="col-span-2 hidden xl:block">Exukasu</div>
               <div class="col-span-2 hidden xl:block">@ernesto19182398</div>
@@ -91,29 +76,199 @@
           </div>
         </div>
         <div class="flex flex-col flex-initial w-6/12">
-          <div class="flex border-b border-gray-200">
-            <h1 class="text-xl">Home</h1>
+          <div class="flex border-b border-gray-200 h-16">
+            <h1 class="text-xl my-auto">Home</h1>
           </div>
           <div class="grid grid-cols-profileAd grid-rows-tweetAd" id="tweetForm">
-            <div class="row-start-1 row-end-3"><img src="./img/profile.png" class="rounded-full w-16 my-2" alt=""></div>
-            <div class="col-span-2 row-span-1"><textarea oninput="auto_grow(this)" name="" id="tweetArea" class="h-14 w-full resize-none outline-none overflow-hidden mt-3 ml-3 bg-blue-900 text-xl">Hello World</textarea></div>
+            <div class="row-start-1 row-end-3"><img src="./img/profile.png" class="rounded-full w-12 mx-auto my-2" alt=""></div>
+            <div class="col-span-2 row-span-1"><textarea oninput="auto_grow(this)" name="" id="tweetArea" class="h-14 w-full resize-none outline-none overflow-hidden mt-2 bg-blue-900 text-xl font-medium">Hello World</textarea></div>
             <div class="col-span-2">
               <div class="flex justify-end my-auto">
-                <button class="rounded-full bg-blue-300 p-4 w-1/6"><h1 class="text-white">Tweet</h1></button>
+                <button class="rounded-full bg-blue-300 p-4 w-2/6"><h1 class="text-white font-medium text-xl">Tweet</h1></button>
               </div>
             </div>
           </div>
-          <div class="grid grid-cols-4 grid-rows-4">
-            <div class="bg-red-600 row-start-1 row-end-5">1</div>
-            <div class="bg-red-600 col-span-2">1</div>
-            <div class="bg-red-600 col-span-2 row-span-2">1</div>
-            <div class="bg-red-600 col-span-2">1</div>
+          <div class="grid grid-cols-tweet grid-rows-4">
+            <div class=" row-start-1 row-end-5">
+              <img src="./img/profile.png" class="rounded-full w-12 my-2 mx-auto" alt="">
+            </div>
+            <div class=" col-span-4"><div class="flex h-full text-center">
+              <h1 class="h-3/6 my-auto">Ernesto Mercado</h1>
+            </div></div>
+            <div class="col-span-4 row-span-2"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, consequatur asperiores expedita provident qui deleniti. Ad harum facilis dolorum iure, corrupti itaque aperiam unde? Dicta cupiditate corporis dolorum quod iste.</p></div>
+            <div class="col-span-4">
+              <div class="flex my-2">
+                <div class="flex flex-1 items-center">
+                  <a href="" class="mr-2">
+                   <i class="far fa-comment fa-2x"></i>
+                  </a>
+                  <h1>11</h1>
+                </div>
+                 <div class="flex flex-1 items-center">
+                  <a href="" class="mr-2">
+                   <i class="fas fa-retweet fa-2x"></i>
+                  </a>
+                  <h1>11</h1>
+                </div>
+                 <div class="flex flex-1 items-center">
+                  <a href="" class="mr-2">
+                   <i class="far fa-heart fa-2x"></i>
+                  </a>
+                  <h1>11</h1>
+                </div>
+                 <div class="flex flex-1 items-center">
+                  <a href="" class="mr-2">
+                   <i class="fas fa-upload fa-2x"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid grid-cols-tweet grid-rows-4">
+            <div class=" row-start-1 row-end-5">
+              <img src="./img/profile.png" class="rounded-full w-12 my-2 mx-auto" alt="">
+            </div>
+            <div class=" col-span-4"><div class="flex h-full text-center">
+              <h1 class="h-3/6 my-auto">Ernesto Mercado</h1>
+            </div></div>
+            <div class="col-span-4 row-span-2"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, consequatur asperiores expedita provident qui deleniti. Ad harum facilis dolorum iure, corrupti itaque aperiam unde? Dicta cupiditate corporis dolorum quod iste.</p></div>
+            <div class="col-span-4">
+              <div class="flex my-2">
+                <div class="flex flex-1 items-center">
+                  <a href="" class="mr-2">
+                   <i class="far fa-comment fa-2x"></i>
+                  </a>
+                  <h1>11</h1>
+                </div>
+                 <div class="flex flex-1 items-center">
+                  <a href="" class="mr-2">
+                   <i class="fas fa-retweet fa-2x"></i>
+                  </a>
+                  <h1>11</h1>
+                </div>
+                 <div class="flex flex-1 items-center">
+                  <a href="" class="mr-2">
+                   <i class="far fa-heart fa-2x"></i>
+                  </a>
+                  <h1>11</h1>
+                </div>
+                 <div class="flex flex-1 items-center">
+                  <a href="" class="mr-2">
+                   <i class="fas fa-upload fa-2x"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid grid-cols-tweet grid-rows-4">
+            <div class=" row-start-1 row-end-5">
+              <img src="./img/profile.png" class="rounded-full w-12 my-2 mx-auto" alt="">
+            </div>
+            <div class=" col-span-4"><div class="flex h-full text-center">
+              <h1 class="h-3/6 my-auto">Ernesto Mercado</h1>
+            </div></div>
+            <div class="col-span-4 row-span-2"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, consequatur asperiores expedita provident qui deleniti. Ad harum facilis dolorum iure, corrupti itaque aperiam unde? Dicta cupiditate corporis dolorum quod iste.</p></div>
+            <div class="col-span-4">
+              <div class="flex my-2">
+                <div class="flex flex-1 items-center">
+                  <a href="" class="mr-2">
+                   <i class="far fa-comment fa-2x"></i>
+                  </a>
+                  <h1>11</h1>
+                </div>
+                 <div class="flex flex-1 items-center">
+                  <a href="" class="mr-2">
+                   <i class="fas fa-retweet fa-2x"></i>
+                  </a>
+                  <h1>11</h1>
+                </div>
+                 <div class="flex flex-1 items-center">
+                  <a href="" class="mr-2">
+                   <i class="far fa-heart fa-2x"></i>
+                  </a>
+                  <h1>11</h1>
+                </div>
+                 <div class="flex flex-1 items-center">
+                  <a href="" class="mr-2">
+                   <i class="fas fa-upload fa-2x"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid grid-cols-tweet grid-rows-4">
+            <div class=" row-start-1 row-end-5">
+              <img src="./img/profile.png" class="rounded-full w-12 my-2 mx-auto" alt="">
+            </div>
+            <div class=" col-span-4"><div class="flex h-full text-center">
+              <h1 class="h-3/6 my-auto">Ernesto Mercado</h1>
+            </div></div>
+            <div class="col-span-4 row-span-2"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, consequatur asperiores expedita provident qui deleniti. Ad harum facilis dolorum iure, corrupti itaque aperiam unde? Dicta cupiditate corporis dolorum quod iste.</p></div>
+            <div class="col-span-4">
+              <div class="flex my-2">
+                <div class="flex flex-1 items-center">
+                  <a href="" class="mr-2">
+                   <i class="far fa-comment fa-2x"></i>
+                  </a>
+                  <h1>11</h1>
+                </div>
+                 <div class="flex flex-1 items-center">
+                  <a href="" class="mr-2">
+                   <i class="fas fa-retweet fa-2x"></i>
+                  </a>
+                  <h1>11</h1>
+                </div>
+                 <div class="flex flex-1 items-center">
+                  <a href="" class="mr-2">
+                   <i class="far fa-heart fa-2x"></i>
+                  </a>
+                  <h1>11</h1>
+                </div>
+                 <div class="flex flex-1 items-center">
+                  <a href="" class="mr-2">
+                   <i class="fas fa-upload fa-2x"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="flex flex-col flex-1">
-          <div class="flex bg-gray-600 rounded-full p-4">
-            <a href=""><i class="fas fa-search fa-2x"></i></a>
-            <input type="text" placeholder="Search Twitter" class="bg-gray-600">
+          <div class="flex bg-gray-600 rounded-full p-2 m-4">
+            <a href="" class="m-1"><i class="fas fa-search"></i></a>
+            <input type="text" placeholder="Search Twitter" class="bg-gray-600 ml-1 outline-none">
+          </div>
+          <div class="flex-1">
+            <div class="flex flex-col m-4 rounded-xl bg-gray-300">
+              <div>
+                <h1 class="m-4 text-xl">Who to follow</h1>
+              </div>
+              <div class="flex items-center m-4">
+                <img src="./img/profile.png" alt="" class="rounded-full w-12 m-2">
+                <div class="flex flex-col text-justify justify-center">
+                  <h1>Ernesto Mercado</h1>
+                  <h1>@ernesto19182398</h1>
+                </div>
+                  <button class="rounded-full px-6 ml-auto text-xl font-medium h-10 mr-2 bg-blue-300">Follow</button>
+              </div>
+              <div class="flex items-center m-4">
+                <img src="./img/profile.png" alt="" class="rounded-full w-12 m-2">
+                <div class="flex flex-col text-justify justify-center">
+                  <h1>Ernesto Mercado</h1>
+                  <h1>@ernesto19182398</h1>
+                </div>
+                  <button class="rounded-full px-6 ml-auto text-xl font-medium h-10 mr-2 bg-blue-300">Follow</button>
+              </div>
+              <div class="flex items-center m-4">
+                <img src="./img/profile.png" alt="" class="rounded-full w-12 m-2">
+                <div class="flex flex-col text-justify justify-center">
+                  <h1>Ernesto Mercado</h1>
+                  <h1>@ernesto19182398</h1>
+                </div>
+                  <button class="rounded-full px-6 ml-auto text-xl font-medium h-10 mr-2 bg-blue-300">Follow</button>
+              </div>
+              
+            </div>
           </div>
          
         </div>

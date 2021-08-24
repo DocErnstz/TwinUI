@@ -12,7 +12,8 @@ module.exports = {
         "screen-80": "80vh",
       }),
       gridTemplateColumns: {
-        profileAd: "48px 1fr 1fr",
+        profileAd: "68px 1fr 1fr",
+        tweet: "68px 1fr 1fr 1fr 1fr",
       },
       gridTemplateRows: {
         tweetAd: "1fr 74px",

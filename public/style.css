@@ -10257,11 +10257,11 @@ video {
 }
 
 .grid-cols-profileAd {
-  grid-template-columns: 48px 1fr 1fr;
+  grid-template-columns: 68px 1fr 1fr;
 }
 
-.grid-cols-tweetAd {
-  grid-template-columns: 1fr 2fr 2fr;
+.grid-cols-tweet {
+  grid-template-columns: 68px 1fr 1fr 1fr 1fr;
 }
 
 .grid-rows-1 {
@@ -10290,6 +10290,10 @@ video {
 
 .grid-rows-none {
   grid-template-rows: none;
+}
+
+.grid-rows-tweetAd {
+  grid-template-rows: 1fr 74px;
 }
 
 .flex-row {
@@ -41864,11 +41868,11 @@ video {
   }
 
   .sm\:grid-cols-profileAd {
-    grid-template-columns: 48px 1fr 1fr;
+    grid-template-columns: 68px 1fr 1fr;
   }
 
-  .sm\:grid-cols-tweetAd {
-    grid-template-columns: 1fr 2fr 2fr;
+  .sm\:grid-cols-tweet {
+    grid-template-columns: 68px 1fr 1fr 1fr 1fr;
   }
 
   .sm\:grid-rows-1 {
@@ -41897,6 +41901,10 @@ video {
 
   .sm\:grid-rows-none {
     grid-template-rows: none;
+  }
+
+  .sm\:grid-rows-tweetAd {
+    grid-template-rows: 1fr 74px;
   }
 
   .sm\:flex-row {
@@ -73117,11 +73125,11 @@ video {
   }
 
   .md\:grid-cols-profileAd {
-    grid-template-columns: 48px 1fr 1fr;
+    grid-template-columns: 68px 1fr 1fr;
   }
 
-  .md\:grid-cols-tweetAd {
-    grid-template-columns: 1fr 2fr 2fr;
+  .md\:grid-cols-tweet {
+    grid-template-columns: 68px 1fr 1fr 1fr 1fr;
   }
 
   .md\:grid-rows-1 {
@@ -73150,6 +73158,10 @@ video {
 
   .md\:grid-rows-none {
     grid-template-rows: none;
+  }
+
+  .md\:grid-rows-tweetAd {
+    grid-template-rows: 1fr 74px;
   }
 
   .md\:flex-row {
@@ -104370,11 +104382,11 @@ video {
   }
 
   .lg\:grid-cols-profileAd {
-    grid-template-columns: 48px 1fr 1fr;
+    grid-template-columns: 68px 1fr 1fr;
   }
 
-  .lg\:grid-cols-tweetAd {
-    grid-template-columns: 1fr 2fr 2fr;
+  .lg\:grid-cols-tweet {
+    grid-template-columns: 68px 1fr 1fr 1fr 1fr;
   }
 
   .lg\:grid-rows-1 {
@@ -104403,6 +104415,10 @@ video {
 
   .lg\:grid-rows-none {
     grid-template-rows: none;
+  }
+
+  .lg\:grid-rows-tweetAd {
+    grid-template-rows: 1fr 74px;
   }
 
   .lg\:flex-row {
@@ -135623,11 +135639,11 @@ video {
   }
 
   .xl\:grid-cols-profileAd {
-    grid-template-columns: 48px 1fr 1fr;
+    grid-template-columns: 68px 1fr 1fr;
   }
 
-  .xl\:grid-cols-tweetAd {
-    grid-template-columns: 1fr 2fr 2fr;
+  .xl\:grid-cols-tweet {
+    grid-template-columns: 68px 1fr 1fr 1fr 1fr;
   }
 
   .xl\:grid-rows-1 {
@@ -135656,6 +135672,10 @@ video {
 
   .xl\:grid-rows-none {
     grid-template-rows: none;
+  }
+
+  .xl\:grid-rows-tweetAd {
+    grid-template-rows: 1fr 74px;
   }
 
   .xl\:flex-row {
@@ -166876,11 +166896,11 @@ video {
   }
 
   .\32xl\:grid-cols-profileAd {
-    grid-template-columns: 48px 1fr 1fr;
+    grid-template-columns: 68px 1fr 1fr;
   }
 
-  .\32xl\:grid-cols-tweetAd {
-    grid-template-columns: 1fr 2fr 2fr;
+  .\32xl\:grid-cols-tweet {
+    grid-template-columns: 68px 1fr 1fr 1fr 1fr;
   }
 
   .\32xl\:grid-rows-1 {
@@ -166909,6 +166929,10 @@ video {
 
   .\32xl\:grid-rows-none {
     grid-template-rows: none;
+  }
+
+  .\32xl\:grid-rows-tweetAd {
+    grid-template-rows: 1fr 74px;
   }
 
   .\32xl\:flex-row {

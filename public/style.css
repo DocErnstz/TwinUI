@@ -10260,6 +10260,10 @@ video {
   grid-template-columns: 48px 1fr 1fr;
 }
 
+.grid-cols-tweetAd {
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
 .grid-rows-1 {
   grid-template-rows: repeat(1, minmax(0, 1fr));
 }
@@ -41863,6 +41867,10 @@ video {
     grid-template-columns: 48px 1fr 1fr;
   }
 
+  .sm\:grid-cols-tweetAd {
+    grid-template-columns: 1fr 2fr 2fr;
+  }
+
   .sm\:grid-rows-1 {
     grid-template-rows: repeat(1, minmax(0, 1fr));
   }
@@ -73110,6 +73118,10 @@ video {
 
   .md\:grid-cols-profileAd {
     grid-template-columns: 48px 1fr 1fr;
+  }
+
+  .md\:grid-cols-tweetAd {
+    grid-template-columns: 1fr 2fr 2fr;
   }
 
   .md\:grid-rows-1 {
@@ -104361,6 +104373,10 @@ video {
     grid-template-columns: 48px 1fr 1fr;
   }
 
+  .lg\:grid-cols-tweetAd {
+    grid-template-columns: 1fr 2fr 2fr;
+  }
+
   .lg\:grid-rows-1 {
     grid-template-rows: repeat(1, minmax(0, 1fr));
   }
@@ -135610,6 +135626,10 @@ video {
     grid-template-columns: 48px 1fr 1fr;
   }
 
+  .xl\:grid-cols-tweetAd {
+    grid-template-columns: 1fr 2fr 2fr;
+  }
+
   .xl\:grid-rows-1 {
     grid-template-rows: repeat(1, minmax(0, 1fr));
   }
@@ -166857,6 +166877,10 @@ video {
 
   .\32xl\:grid-cols-profileAd {
     grid-template-columns: 48px 1fr 1fr;
+  }
+
+  .\32xl\:grid-cols-tweetAd {
+    grid-template-columns: 1fr 2fr 2fr;
   }
 
   .\32xl\:grid-rows-1 {

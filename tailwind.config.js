@@ -3,7 +3,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      height: theme => ({
+      height: (theme) => ({
         "screen/2": "50vh",
         "screen/3": "calc(100vh / 3)",
         "screen/4": "calc(100vh / 4)",
@@ -12,9 +12,11 @@ module.exports = {
         "screen-80": "80vh",
       }),
       gridTemplateColumns: {
-       'profileAd': '48px 1fr 1fr',
-      }
-
+        profileAd: "48px 1fr 1fr",
+      },
+      gridTemplateRows: {
+        tweetAd: "1fr 74px",
+      },
     },
     fontFamily: {
       Noto: ["Noto Sans, sans-serif"],

@@ -94,12 +94,12 @@
           <div class="flex border-b border-gray-200">
             <h1 class="text-xl">Home</h1>
           </div>
-          <div class="grid grid-cols-profileAd grid-rows-3">
-            <div class="row-start-1 row-end-4"><img src="./img/profile.png" class="rounded-full w-16" alt=""></div>
-            <div class="col-span-2 row-span-2"><textarea name="" id="" class="h-full w-full resize-none outline-none">Hello World</textarea></div>
+          <div class="grid grid-cols-profileAd grid-rows-tweetAd" id="tweetForm">
+            <div class="row-start-1 row-end-3"><img src="./img/profile.png" class="rounded-full w-16 my-2" alt=""></div>
+            <div class="col-span-2 row-span-1"><textarea oninput="auto_grow(this)" name="" id="tweetArea" class="h-14 w-full resize-none outline-none overflow-hidden mt-3 ml-3 bg-blue-900 text-xl">Hello World</textarea></div>
             <div class="col-span-2">
-              <div class="flex justify-end">
-                <button class="rounded-full bg-blue-300 p-4 m-4 w-1/6"><h1 class="text-white">Tweet</h1></button>
+              <div class="flex justify-end my-auto">
+                <button class="rounded-full bg-blue-300 p-4 w-1/6"><h1 class="text-white">Tweet</h1></button>
               </div>
             </div>
           </div>
@@ -118,5 +118,6 @@
          
         </div>
       </div>
+      <script src="./index.js"></script>
   </body>
 </html>
